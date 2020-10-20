@@ -1,7 +1,9 @@
-const paths = require('./paths');
-const webpack = require('webpack');
-const merge = require('webpack-merge');
+/* eslint-disable global-require */
+/* eslint-disable import/no-extraneous-dependencies */
+const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
+
+const paths = require('./paths');
 
 const port = 8080;
 

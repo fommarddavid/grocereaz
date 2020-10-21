@@ -1,7 +1,7 @@
 {
   "name": "react-modele",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
+    "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js",
@@ -38,7 +38,7 @@
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
     "file-loader": "6.1.1",
-    "html-webpack-plugin": "4.5.0",
+    "html-webpack-plugin": "5.0.0-alpha.2",
     "ignore-styles": "^5.0.1",
     "mini-css-extract-plugin": "1.1.1",
     "mocha": "^8.2.0",
